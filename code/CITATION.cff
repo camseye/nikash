@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "Nikash — an independent, cross-benchmark test bench for prompt-injection defences in AI security assistants"
+message: "If you use this software in academic or industrial work, please cite it using the metadata below. A paper is in preparation."
+type: software
+authors:
+  - family-names: "REPLACE-WITH-YOUR-SURNAME"
+    given-names: "REPLACE-WITH-YOUR-FIRST-NAME"
+abstract: >
+  Security teams hand raw logs to language models to triage alerts and
+  summarise incidents, and many log fields are written by the attacker.
+  Nikash scores published prompt-injection defence types on each other's
+  benchmarks and always reports what each defence costs on clean logs.
+  Version 1 covers alert triage with five defences on two benchmarks
+  (LogInject-1.0 web and SSH logs, and CAM-LDS Linux attack chains with
+  re-implemented injection) and three open-weight models. It includes a
+  common log schema that marks
+  attacker-controlled fields, attack generators with clean twins (direct
+  instructions, context stitching and instruction-free cover stories),
+  defences behind one plug-in protocol (nikash/0, JSON Lines over stdin
+  and stdout), twin-conditioned attack success with Wilson intervals,
+  Kendall's tau for ranking transfer, and a static public scoreboard.
+  Models are open-weight and self-hosted; no third-party service is ever
+  attacked.
+repository-code: "https://github.com/YOUR-USER/nikash"
+url: "https://YOUR-USER.github.io/nikash/"
+keywords:
+  - "prompt injection"
+  - "indirect prompt injection"
+  - "AI security assistants"
+  - "log analysis"
+  - "security operations"
+  - "LLM evaluation"
+  - "benchmark transfer"
+  - "adversarial robustness"
+  - "cyber security"
+license: "MIT"
+version: "0.1.0"
+date-released: "2026-10-26"

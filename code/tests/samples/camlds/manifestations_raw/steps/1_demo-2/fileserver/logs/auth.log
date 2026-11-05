@@ -1,0 +1,13 @@
+Sep 22 10:04:01 fileserver CRON[2050]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 10:04:01 fileserver CRON[2050]: pam_unix(cron:session): session closed for user root
+Sep 22 10:05:01 fileserver sshd[2101]: Invalid user admin from 198.51.100.23 port 40122
+Sep 22 10:05:01 fileserver sshd[2101]: Failed password for invalid user admin from 198.51.100.23 port 40122 ssh2
+Sep 22 10:05:01 fileserver CRON[2102]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 10:05:02 fileserver sshd[2103]: Invalid user oracle from 198.51.100.23 port 40130
+Sep 22 10:05:02 fileserver sshd[2103]: Failed password for invalid user oracle from 198.51.100.23 port 40130 ssh2
+Sep 22 10:05:02 fileserver CRON[2102]: pam_unix(cron:session): session closed for user root
+Sep 22 10:05:03 fileserver sshd[2105]: Invalid user test from 198.51.100.23 port 40138
+Sep 22 10:05:09 fileserver sshd[2111]: Accepted password for jane.citizen from 198.51.100.23 port 40190 ssh2
+Sep 22 10:05:20 fileserver sudo: jane.citizen : TTY=pts/1 ; PWD=/home/jane.citizen ; USER=root ; COMMAND=/bin/bash
+Sep 22 10:06:01 fileserver CRON[2140]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 10:06:01 fileserver CRON[2140]: pam_unix(cron:session): session closed for user root

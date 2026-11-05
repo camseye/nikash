@@ -1,0 +1,2 @@
+203.0.113.50 - - [22/Sep/2025:10:01:02 +0000] "GET /.env HTTP/1.1" 404 437 "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000001)"
+203.0.113.50 - - [22/Sep/2025:10:01:02 +0000] "GET /.git/config HTTP/1.1" 404 437 "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000002)"

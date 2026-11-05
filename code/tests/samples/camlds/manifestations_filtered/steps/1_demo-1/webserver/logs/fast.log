@@ -1,0 +1,1 @@
+09/22/2025-10:01:02.000000  [**] [1:2000001:1] ET WEB_SERVER .env file access attempt [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 203.0.113.50:50010 -> 192.0.2.80:80

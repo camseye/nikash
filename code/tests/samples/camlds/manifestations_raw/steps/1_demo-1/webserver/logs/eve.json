@@ -1,0 +1,2 @@
+{"timestamp":"2025-09-22T10:01:02.000000+0000","event_type":"http","src_ip":"203.0.113.50","dest_ip":"192.0.2.80","http":{"hostname":"web.example.test","url":"/.env","http_user_agent":"Mozilla/5.00 (Nikto/2.1.6)","status":404}}
+{"timestamp":"2025-09-22T10:01:03.000000+0000","event_type":"http","src_ip":"203.0.113.50","dest_ip":"192.0.2.80","http":{"hostname":"web.example.test","url":"/backup.zip","http_user_agent":"Mozilla/5.00 (Nikto/2.1.6)","status":404}}

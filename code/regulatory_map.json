@@ -1,0 +1,78 @@
+{
+ "schema": "nikash.regulatory-map/v0",
+ "updated": "2026-10-26",
+ "purpose": "Shows where evidence from Nikash could support an organisation's own assessment of an AI security assistant. It is not legal advice, and running Nikash does not make anyone compliant with anything.",
+ "entries": [
+  {
+   "id": "EU-AIA-15",
+   "instrument": "EU Artificial Intelligence Act",
+   "citation": "Regulation (EU) 2024/1689, Article 15 (accuracy, robustness and cybersecurity)",
+   "region": "EU",
+   "asks": "High-risk AI systems must be resilient against attempts by unauthorised third parties to alter their use or outputs by exploiting vulnerabilities, including inputs designed to make the model err.",
+   "nikash_provides": "Measured attack success for each defence and model on manipulated log inputs, with confidence intervals, next to the clean-log cost of each defence.",
+   "nikash_does_not": "Decide whether an assistant is a high-risk system, assess the rest of Article 15 (accuracy declarations, feedback loops), or cover any other article.",
+   "applicability": "Article 15 applies to high-risk systems. A log-triage assistant is not automatically high-risk; the reference is to the robustness expectation, not a claim that it applies.",
+   "confidence": "direct"
+  },
+  {
+   "id": "NIST-RMF-MS27",
+   "instrument": "NIST AI Risk Management Framework 1.0",
+   "citation": "NIST AI 100-1 (2023), MEASURE 2.7",
+   "region": "US (voluntary, used internationally)",
+   "asks": "AI system security and resilience are evaluated and documented.",
+   "nikash_provides": "A repeatable, documented evaluation of resilience to log-borne prompt injection, with the method, data licences and code published.",
+   "nikash_does_not": "Cover the GOVERN, MAP or MANAGE functions, or security properties other than resistance to injected log content.",
+   "applicability": "Voluntary framework.",
+   "confidence": "direct"
+  },
+  {
+   "id": "NIST-AML",
+   "instrument": "NIST adversarial machine learning taxonomy",
+   "citation": "NIST AI 100-2 E2025, Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations",
+   "region": "US (voluntary, used internationally)",
+   "asks": "Uses common terms for attacks on generative AI, including indirect prompt injection, and for their mitigations.",
+   "nikash_provides": "Attack classes and defences named so they map onto the taxonomy's indirect prompt injection category.",
+   "nikash_does_not": "Test the other attack classes in the taxonomy (poisoning, privacy, supply chain).",
+   "applicability": "Terminology reference.",
+   "confidence": "direct"
+  },
+  {
+   "id": "NIS2-21",
+   "instrument": "NIS2 Directive",
+   "citation": "Directive (EU) 2022/2555, Article 21(2)(f)",
+   "region": "EU",
+   "asks": "Essential and important entities have policies and procedures to assess the effectiveness of their cybersecurity risk-management measures.",
+   "nikash_provides": "A way to assess whether a defence placed in front of an AI triage assistant is effective, and what it costs in missed detections and false alarms.",
+   "nikash_does_not": "Assess any other risk-management measure, or replace an entity's own testing in its own environment.",
+   "applicability": "Applies to entities in scope of NIS2 as transposed into national law.",
+   "confidence": "analogy"
+  },
+  {
+   "id": "ISO-42001-9",
+   "instrument": "ISO/IEC 42001 (AI management systems)",
+   "citation": "ISO/IEC 42001:2023, clause 9 (performance evaluation)",
+   "region": "International (voluntary standard)",
+   "asks": "The organisation monitors, measures, analyses and evaluates its AI management system and AI systems.",
+   "nikash_provides": "Measurement evidence for one risk to one kind of AI system, in a form that can be re-run after every change.",
+   "nikash_does_not": "Provide an AI management system, or evidence for any other clause or control.",
+   "applicability": "Voluntary, certifiable standard.",
+   "confidence": "analogy"
+  },
+  {
+   "id": "SECURE-AI-GUIDE",
+   "instrument": "Guidelines for secure AI system development",
+   "citation": "UK NCSC, US CISA and international partners (November 2023)",
+   "region": "International (guidance)",
+   "asks": "Developers and operators test AI systems against adversarial inputs before and after release, and monitor their behaviour.",
+   "nikash_provides": "An open test bench and a plug-in protocol, so a team can rerun the same adversarial evaluation on its own defence.",
+   "nikash_does_not": "Cover secure design, supply chain or deployment guidance.",
+   "applicability": "Guidance.",
+   "confidence": "analogy"
+  }
+ ],
+ "caveats": [
+  "Provision wording is paraphrased from the public texts as understood on 2026-10-26. Quote the official text, not this file, in anything formal.",
+  "\"analogy\" means the provision asks for something broader, and Nikash supplies one piece of evidence towards it.",
+  "No claim is made about any organisation's compliance or tooling."
+ ]
+}

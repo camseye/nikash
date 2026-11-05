@@ -1,0 +1,10 @@
+# The harness core, smoke test and unit tests need the Python 3.11+
+# standard library only.
+#
+# The lines below are for the GPU run inside the Kaggle notebook (or a
+# personal machine with a GPU). Versions to re-verify at the G3 pilot.
+# Do not install these on a machine where you aren't allowed to.
+torch>=2.7
+transformers>=5.5,<6
+accelerate>=1.0
+bitsandbytes>=0.45

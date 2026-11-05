@@ -1,0 +1,2 @@
+2025-09-22 10:01:00 INFO - Executing Msf-Module: 'auxiliary/scanner/http/dir_scanner'
+2025-09-22 10:01:00 INFO - Metadata: {"techniques": "T1595.003", "tactics": "Reconnaissance"}

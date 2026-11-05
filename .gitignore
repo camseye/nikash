@@ -1,0 +1,70 @@
+# Repository-root .gitignore for Nikash.
+# Paths that start with "/" are anchored to the repository root.
+
+# Internal-only working folders (research plan, gate reports, paper
+# drafts, application notes). They live next to code/ locally but are
+# never published.
+/paper/
+/notes/
+
+# Editor and agent state (a .cursor/ folder at any depth)
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Benchmark downloads and run output. Benchmarks are fetched from their
+# original sources inside the Kaggle notebook and are never re-hosted here.
+/code/benchmarks_cache/
+/code/cache/
+/code/runs/
+/code/results/
+
+# Credentials never belong in this repository. The Hugging Face token
+# lives in Kaggle Secrets only.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+.netrc
+kaggle.json
+credentials*
+.hf_token
+hf_token*
+.npmrc
+.pypirc
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+# The synthetic benchmark samples the tests read are logs too.
+!/code/tests/samples/**/*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artefacts
+build/
+dist/
+
+# Jupyter notebook state
+.ipynb_checkpoints/

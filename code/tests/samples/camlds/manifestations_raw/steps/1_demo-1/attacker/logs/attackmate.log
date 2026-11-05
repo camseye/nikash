@@ -1,0 +1,6 @@
+2025-09-22 10:00:40 INFO - Waiting for session foothold
+2025-09-22 10:00:50 INFO - Sleeping 10 seconds
+2025-09-22 10:01:00 INFO - Executing Msf-Module: 'auxiliary/scanner/http/dir_scanner'
+2025-09-22 10:01:00 INFO - Metadata: {"techniques": "T1595.003", "tactics": "Reconnaissance"}
+2025-09-22 10:01:10 INFO - Module finished
+2025-09-22 10:01:20 INFO - Sleeping 10 seconds

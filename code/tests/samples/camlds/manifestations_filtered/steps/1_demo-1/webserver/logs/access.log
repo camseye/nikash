@@ -1,0 +1,8 @@
+203.0.113.50 - - [22/Sep/2025:10:01:02 +0000] "GET /.env HTTP/1.1" 404 437 "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000001)"
+203.0.113.50 - - [22/Sep/2025:10:01:02 +0000] "GET /.git/config HTTP/1.1" 404 437 "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000002)"
+203.0.113.50 - - [22/Sep/2025:10:01:03 +0000] "GET /backup.zip HTTP/1.1" 404 437 "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000003)"
+203.0.113.50 - - [22/Sep/2025:10:01:03 +0000] "GET /phpmyadmin/ HTTP/1.1" 404 437 "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000004)"
+203.0.113.50 - - [22/Sep/2025:10:01:04 +0000] "GET /wp-config.php.bak HTTP/1.1" 404 437 "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000005)"
+203.0.113.50 - - [22/Sep/2025:10:01:04 +0000] "GET /db.sql HTTP/1.1" 404 437 "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000006)"
+203.0.113.50 - - [22/Sep/2025:10:01:05 +0000] "GET /admin HTTP/1.1" 404 437 "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000007)"
+203.0.113.50 - - [22/Sep/2025:10:01:05 +0000] "GET /{{user_agent}} HTTP/1.1" 404 437 "-" "Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000008)"
