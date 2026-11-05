@@ -21,8 +21,8 @@ abstract: >
   Kendall's tau for ranking transfer, and a static public scoreboard.
   Models are open-weight and self-hosted; no third-party service is ever
   attacked.
-repository-code: "https://github.com/YOUR-USER/nikash"
-url: "https://YOUR-USER.github.io/nikash/"
+repository-code: "https://github.com/camseye/nikash"
+url: "https://camseye.github.io/nikash/"
 keywords:
   - "prompt injection"
   - "indirect prompt injection"

@@ -1,7 +1,7 @@
 # Nikash
 *A touchstone for AI security assistants — an independent, cross-benchmark test bench for prompt-injection defences in log analysis.*
 
-**Live scoreboard**: <https://YOUR-USER.github.io/nikash/>
+**Live scoreboard**: <https://camseye.github.io/nikash/>
 *(redeployed automatically on every push to `main` — see the [GitHub Actions workflow](./.github/workflows/pages.yml))*
 
 > Sanskrit *निकष (Nikash)* is the touchstone: the dark stone a goldsmith
